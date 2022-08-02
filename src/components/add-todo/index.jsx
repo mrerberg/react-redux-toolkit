@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { addTodo } from "../../store/slices/todo";
+import { addTodo } from "../../store/actions/todo";
 
 import styles from "./index.module.css";
 

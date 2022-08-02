@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import cx from "classnames";
 
-import { toggleCompleteness } from "../../store/slices/todo";
+import { toggleCompleteness } from "../../store/actions/todo";
 
 import styles from './index.module.css';
 
